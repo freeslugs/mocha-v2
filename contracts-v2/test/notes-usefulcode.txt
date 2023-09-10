@@ -1,0 +1,37 @@
+
+//const engineabi = JSON.parse(fs.readFileSync("artifacts/contracts/CollarEngine.sol/CollarEngine.json")).abi;
+//https://ethereum.stackexchange.com/questions/110931/hardhat-mainnet-forking-and-impersonating-an-account-isnt-working-help
+
+
+// const { time } = require("@nomicfoundation/hardhat-network-helpers");
+// const { latest } = require('@nomicfoundation/hardhat-network-helpers/dist/src/helpers/time');
+// const { Console } = require('console');
+
+
+//MOVE TIME FWD, MATURE THE VAULT
+
+
+// 
+
+  // it("matureVault - netsh|phys, repay, btwn - should pay all eth", async function () {
+  //   //WRITE LIKE 5 MORE OF THESE!!!
+  //   //UP CASES - client gets some pnl, paid in cash or eth
+  //   //DOWN CASES - client gets nothing, mm gets cash in vault, if repay, trade for eth/cash
+  // })
+  // it("matureVault - netsh|phys, no repay, up (normal) - should pay tiny amt eth", async function () {
+  // })
+  // it("matureVault - netsh|phys, repay, up (normal) - should pay less eth than init", async function () {
+  // })
+  // it("matureVault - netsh|phys|cash, no repay, down - should pay cash to mm, client zero", async function () {
+  // })
+  // it("matureVault - phys|netsh, repay, down - should pay cash to mm, use client cash to buy lots of eth", async function () {
+  // })
+  // it("matureVault - phys|netsh, repay, down - should pay cash to mm, use client cash to buy lots of eth", async function () {
+  // })
+
+
+// TESTING TODO LIST 
+// higher qtys than 1 eth
+//cash cases need to check........
+//simulate other prices/environments
+//TEST REJECT!!!!

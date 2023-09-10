@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+CONSOLE LOGGING
+
+const vaultpre = (await usdc.connect(mike).balanceOf(collarVault.address)).toString()
+const mikepre = (await usdc.connect(mike).balanceOf(mike.address)).toString()
+const joepre = (await usdc.connect(mike).balanceOf(joe.address)).toString()
+const feepre = (await usdc.connect(mike).balanceOf(fee.address)).toString()
+const vaultethpre = (await ethers.provider.getBalance(collarVault.address)).toString()
+const mikeethpre = (await ethers.provider.getBalance(mike.address)).toString()
+const joeethpre = (await ethers.provider.getBalance(joe.address)).toString()
+const feeethpre = (await ethers.provider.getBalance(fee.address)).toString()
+
+const vaultpost = (await usdc.connect(mike).balanceOf(collarVault.address)).toString()
+const mikepost = (await usdc.connect(mike).balanceOf(mike.address)).toString()
+const joepost = (await usdc.connect(mike).balanceOf(joe.address)).toString()
+const feepost = (await usdc.connect(mike).balanceOf(fee.address)).toString()
+const vaultethpost = (await ethers.provider.getBalance(collarVault.address)).toString()
+const mikeethpost = (await ethers.provider.getBalance(mike.address)).toString()
+const joeethpost = (await ethers.provider.getBalance(joe.address)).toString()
+const feeethpost = (await ethers.provider.getBalance(fee.address)).toString()
+console.log(vaultpre - vaultpost)
+console.log(mikepre - mikepost)
+console.log(joepre - joepost);
+console.log(feepre - feepost);
+console.log(vaultethpre - vaultethpost);
+console.log(mikeethpre - mikeethpost);
+console.log(joeethpre - joeethpost);
+console.log(feeethpre - feeethpost);

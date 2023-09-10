@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@auth0/auth0-react@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@auth0/auth0-react/-/auth0-react-2.2.1.tgz#f1d3ff6ea9144d8bba0597e86beb5cb1d57301cb"
+  integrity sha512-4L4FZvSqIwzVk5mwWFbWzfJ4Zq11dgS0v4KIGKro5tL9dgOnBGq+Ino/1mzexPV1LJHBkfwXG4+IaPiQNz5CGg==
+  dependencies:
+    "@auth0/auth0-spa-js" "^2.1.2"
+
+"@auth0/auth0-spa-js@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@auth0/auth0-spa-js/-/auth0-spa-js-2.1.2.tgz#2217db13ce0feb480a190ed165b36681bd48633c"
+  integrity sha512-xdA65Z/U7++Y7L9Uwh8Q8OVOs6qgFz+fb7GAzHFjpr1icO37B//xdzLXm7ZRgA19RWrsNe1nme3h896igJSvvw==
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -366,6 +378,24 @@
     "@ethersproject/logger" "^5.7.0"
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
+
+"@fireblocks/ncw-js-infra@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@fireblocks/ncw-js-infra/-/ncw-js-infra-1.0.8.tgz#1d7fb88e1b92d672c76802a01760d47e5acb5aad"
+  integrity sha512-If+jNs0+xgzYDDke78/3J0JNakba4MyUG5aHyVVRxCfUIC5x5TltXpKbwOvIDphKqzmxTDKcBIfxXLwi+i54Xg==
+  dependencies:
+    "@types/emscripten" "^1.39.7"
+
+"@fireblocks/ncw-js-sdk@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@fireblocks/ncw-js-sdk/-/ncw-js-sdk-2.0.0.tgz#d005787ee712bb12609f6f7cfbe1f1b3d40beb60"
+  integrity sha512-jgGGQyjTiImt0oLdijVrQ15rM6kbBGslzJ45uwgQSUVSy05PJqXht6AF6sHxR/g8AmDQmeKyqfn6JMCZXuKkFg==
+  dependencies:
+    "@fireblocks/ncw-js-infra" "^1.0.8"
+    "@types/jwt-decode" "^3.1.0"
+    "@types/node-forge" "^1.3.4"
+    jwt-decode "^3.1.2"
+    node-forge "^1.3.1"
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.0"
@@ -882,6 +912,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/emscripten@^1.39.7":
+  version "1.39.7"
+  resolved "https://registry.yarnpkg.com/@types/emscripten/-/emscripten-1.39.7.tgz#3025183ea56e12bf4d096aadc48ce74ca051233d"
+  integrity sha512-tLqYV94vuqDrXh515F/FOGtBcRMTPGvVV1LzLbtYDcQmmhtpf/gLYf+hikBbQk8MzOHNz37wpFfJbYAuSn8HqA==
+
 "@types/form-data@0.0.33":
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/@types/form-data/-/form-data-0.0.33.tgz#c9ac85b2a5fd18435b8c85d9ecb50e6d6c893ff8"
@@ -897,6 +932,13 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/jwt-decode@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@types/jwt-decode/-/jwt-decode-3.1.0.tgz#eb1b24f436962b8857beaf8addfd542de56670a2"
+  integrity sha512-tthwik7TKkou3mVnBnvVuHnHElbjtdbM63pdBCbZTirCt3WAdM73Y79mOri7+ljsS99ZVwUFZHLMxJuJnv/z1w==
+  dependencies:
+    jwt-decode "*"
+
 "@types/lru-cache@^5.1.0":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@types/lru-cache/-/lru-cache-5.1.1.tgz#c48c2e27b65d2a153b19bfc1a317e30872e01eef"
@@ -911,6 +953,13 @@
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-9.1.1.tgz#e7c4f1001eefa4b8afbd1eee27a237fee3bf29c4"
   integrity sha512-Z61JK7DKDtdKTWwLeElSEBcWGRLY8g95ic5FoQqI9CMx0ns/Ghep3B4DfcEimiKMvtamNVULVNKEsiwV3aQmXw==
+
+"@types/node-forge@^1.3.4":
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@types/node-forge/-/node-forge-1.3.5.tgz#75f041b66e584aae2bf01cffba8923693770034c"
+  integrity sha512-GASdDr5u+BDTUcmWaS9Ljs1QTcyI+iPuCh/FdpDqLuLJP7Stx+j3DI0g4/cBn0zFjOnajMKATkq6PqBD0K5uzQ==
+  dependencies:
+    "@types/node" "*"
 
 "@types/node@*", "@types/node@^18.7.14":
   version "18.7.14"
@@ -3654,6 +3703,11 @@ jsprim@^1.2.2:
     json-schema "0.4.0"
     verror "1.10.0"
 
+jwt-decode@*, jwt-decode@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
+  integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
+
 keccak@^3.0.0, keccak@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/keccak/-/keccak-3.0.2.tgz#4c2c6e8c54e04f2670ee49fa734eb9da152206e0"
@@ -4164,6 +4218,11 @@ node-environment-flags@1.0.6:
   dependencies:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
+
+node-forge@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-1.3.1.tgz#be8da2af243b2417d5f646a770663a92b7e9ded3"
+  integrity sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==
 
 node-gyp-build@^4.2.0, node-gyp-build@^4.3.0:
   version "4.5.0"

@@ -1,0 +1,54 @@
+{
+  "addressbook" : {
+    "mainnet": {
+      "uniswapRouter": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+      "uniswapRouterV3": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "oracleEthUsd": "0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419",
+      "usdc":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "omni": {
+      "uniswapRouter": "",
+      "uniswapRouterV3": "0x868E479b7489887D62a6A2c290A95618ACB0Fa4A",
+      "oracleEthUsd": "0xb796f41C871060e531660653e1f724f0D266Eb03",
+      "usdc":"0xCC38C652731Bd2c5CeEC4e9191a1b55D44f2aB17",
+      "weth": "0x1212400000000000000000000000000000000003"
+    },
+    "goerli": {
+      "uniswapRouter": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+      "uniswapRouterV3": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "oracleEthUsd": "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
+      "usdc":"0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+      "weth": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+    },
+    "polygon": {
+      "uniswapRouterV3": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "oracleEthUsd": "0xF9680D99D6C9589e2a93a78A04A279e509205945",
+      "usdc":"0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "weth": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+    },
+    "arbitrum": {
+      "uniswapRouterV3": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "oracleEthUsd": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
+      "usdc":"0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "weth": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    },
+    "optimism": {
+      "uniswapRouterV3": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "oracleEthUsd": "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
+      "usdc":"0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+      "weth": "0x4200000000000000000000000000000000000006"
+    }
+  },
+  "protocol": {
+    "feewallet": {
+      "hot": "0x0E900361363b64cF84111c383479Da9124BbD579",
+      "cold": ""
+    },
+  "feerate": 0
+  },
+  "marketmakers": {
+    "jptest3" : "0x845aE4ffA780f4b95dF34226F4dB6ACA3B0Dd537",
+    "anonmm1" : ""
+  }
+}
