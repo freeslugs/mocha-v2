@@ -59,7 +59,7 @@ import { Layout } from '../components/layout/Layout'
 import { useCheckLocalChain } from '../hooks/useCheckLocalChain'
 import { useIsMounted } from '../hooks/useIsMounted'
 import { YourContract as YourContractType } from '../types/typechain'
-import { use } from 'chai'
+// import { use } from 'chai'
 
 /**
  * Constants & Helpers
