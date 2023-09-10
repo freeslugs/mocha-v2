@@ -203,8 +203,8 @@ const Home: NextPage = () => {
   
 
   // State to hold donation amount in ETH
-  const [donationAmount, setDonationAmount] = useState('');
-  const [activeCharity, setActiveCharity ] = useState(false);
+  const [donationAmount, setDonationAmount] = useState<any>('');
+  const [activeCharity, setActiveCharity ] = useState<any>(null);
   const [ethToUsd, setEthToUsd] = useState(0);
 
   // Fetch ETH to USD conversion rate
@@ -251,11 +251,11 @@ const Home: NextPage = () => {
              </Tr>
            </Thead>
            <Tbody>
-             {charities.filter((charity) => charity.title.toLowerCase().includes(searchTerm.toLowerCase())).map((charity, index) => (
+             {charities.filter((charity:any) => charity?.title?.toLowerCase().includes(searchTerm.toLowerCase())).map((charity:any, index) => (
                <Tr key={index}>
 
                   {/* <Td>{charity.id}</Td> */}
-                  <Td>{charity.title.substring(0, 75)}</Td>
+                  <Td>{charity.title?.substring(0, 75)}</Td>
                   <Td>
                     {charity.stated_mission.substring(0, 50)}<br/>
                     {charity.stated_mission.substring(50, 100)}
